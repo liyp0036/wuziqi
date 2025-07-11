@@ -1,5 +1,6 @@
 import pygame
 import easygui
+import sys,os
 from pygame import *
 
 pygame.init()
@@ -91,3 +92,5 @@ while done:
     pygame.display.flip()
     pygame.time.delay(50)
     clock+=0.05
+pygame.quit()
+sys.exit()
